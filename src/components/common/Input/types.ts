@@ -1,3 +1,3 @@
-import type { InputProps as MUIInputProps } from "@mui/material";
+import type { OutlinedInputProps } from "@mui/material";
 
-export interface InputProps extends MUIInputProps {};
+export interface InputProps extends OutlinedInputProps {};

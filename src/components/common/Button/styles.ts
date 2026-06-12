@@ -23,7 +23,9 @@ export const StyledButton = styled(Button)(({ theme }) => ({
     boxShadow: theme.shadows[1],
   },
   "&.Mui-disabled": {
-    backgroundColor: theme.palette.action.disabledBackground,
-    color: theme.palette.action.disabled,
+    backgroundColor: theme.palette.grey[300],
+    color: theme.palette.grey[500],
+    cursor: "not-allowed",
+    pointerEvents: "auto",
   },
 }));
