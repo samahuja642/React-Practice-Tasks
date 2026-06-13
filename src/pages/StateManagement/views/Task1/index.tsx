@@ -1,8 +1,8 @@
 import Button from "../../../../components/common/Button/Button";
 import Input from "../../../../components/common/Input/Input";
 import FormField from "../../../../components/common/FormField/FormField";
+import { FormContainer } from "../Task2/styles";
 import useLogic from "./logic";
-import { FormContainer } from "./styles";
 
 export default function Task1(){
     const { formValues, formErrors, touched, isFormValid, handleFieldBlur, handleChangeFormValue, handleFormSubmission, isFieldRequired, FORM_FIELDS } = useLogic();
